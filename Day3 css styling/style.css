@@ -1,0 +1,84 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+p,
+div,
+span {
+    font-family: "Lucida Calligraphy";
+}
+
+#header {
+    width: 100%;
+    background-color: red;
+    text-align: center;
+}
+
+
+#linksbar{
+    display: inline;
+    width: 25%;
+    background-color: gray;
+    float: left;
+}
+
+#content{
+    display: inline;
+    width: 75%;
+    background-color: pink;
+    float: left;
+}
+
+.non-bullet-list ul{
+    list-style: none;
+}
+#linksbar li> a {
+    color: red;
+    background-color: pink;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+#linksbar  li>a:hover{
+    color: rgb(225, 0, 255);
+    background-color: brown;
+}
+
+#content h2 #aboutus{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#loginform{
+    border: 2px dashed rgb(20, 70, 60)
+}
+
+input[type="text"]{
+    background-color: yellow;
+}
+
+input[type="text"]:focus{
+    background-color: white;
+}
+
+.tabled-bordered{
+    display: table-cell;
+    padding: 5px;
+    border: 1px solid black;
+    border-width: 2px;
+    margin-left: 2px;
+}
+
+span p::after{
+    content:"read this";
+    color: yellow;
+}
+#aboutus{
+    padding-top: 10px;
+    color: red;
+    color: black !important;
+}
+#titles{
+    padding-top: 10px;
+}
+

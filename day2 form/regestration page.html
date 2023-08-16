@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="form" content="form try">
+    <title>Registration</title>
+</head>
+
+<body>
+    <form action="thanks.html" method="get">
+        <input type="hidden" name="user-ID" value="123"> <br> <br>
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" required tabindex="1"
+            placeholder="Enter your first name"><br> <br>
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" required tabindex="3" placeholder="Enter your last name"><br> <br>
+        <label for="email">email</label>
+        <input type="email" id="email" name="email" required tabindex="2" placeholder="Enter a non-fake email"><br> <br>
+        <label for="passwowrd">password</label>
+        <input type="password" id="password" name="password" required placeholder="Enter your password"><br> <br>
+        <label for="repassword">re-enter password</label>
+        <input type="password" id="repassword" name="repeat-password" required placeholder="Re-enter your password"><br> <br>
+        <label for="date">enter your birthdate</label>
+        <input type="date" id="date" name="birth-date" required><br> <br>
+        upload a picture of you: <br> <input type="file" name="user-picture"><br> <br>
+        <fieldset>
+            <legend>Gender:</legend>
+            <label><input type="radio" name="gender" value="male">Male</label> <br>
+            <label><input type="radio" name="gender" value="female">Female</label>
+        </fieldset><br>
+        faculty: <select name="faculty">
+            <option value="arts">Arts</option>
+            <option value="commerce">Commerce</option>
+            <option value="law">Law</option>
+        </select><br>
+        <fieldset>
+            <legend>Interests:</legend>
+            <label><input type="checkbox" name="interests" value="programming">Programming</label> <br>
+            <label><input type="checkbox" name="interests" value="reading">Reading</label> <br> 
+            <label><input type="checkbox" name="interests" value="swimming">Swimming</label> <br>
+        </fieldset><br>
+        <textarea name="about" cols="10" rows="10"></textarea><br> <br>
+        <label><input type="checkbox" name="terms">I agree to the <a href="terms.html" target="_blank">terms and
+                conditions</a></label><br>
+                <input type="submit" name="submit"> <br>
+        <input type="reset" value="Reset">
+    </form>
+    <p style="font-size: 30px; color: brown; position: relative;left: 36%;"> copyrights &copy; are reserved to صيوحة بيه</p>
+</body>
+
+</html>

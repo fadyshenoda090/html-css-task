@@ -1,0 +1,40 @@
+.foot {
+    padding-top: 10%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: darkorchid;
+}
+
+#left {
+    background-color: rgba(242, 242, 129, 0.922);
+    font-size: larger;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+.iframe {
+    padding-top: 20%;
+}
+
+.center {
+    text-align: center;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: larger;
+}
+
+#data {
+    padding-left: 2%;
+    text-align: left;
+    font-style: italic;
+    font-family: cursive;
+    font font-weight: 450;
+}
+
+.right {
+    font-family: cursive;
+    text-align: center;
+    font-weight: 450;
+    font-style: italic;
+}

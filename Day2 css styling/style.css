@@ -1,0 +1,43 @@
+p, div, span {
+    font-family: "Lucida Calligraphy", cursive;
+}
+div h1{
+    font-family: cursive;
+    text-align: center;
+    background-color: red;
+    width: 100%;
+    display: inline;
+}
+
+#linksbar{
+    float: left;
+    width: 25%;
+    background-color: gray;
+    display: inline;
+}
+
+#content{
+    display: inline;
+    width: 75%;
+    background-color: pink;
+    float: left;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.non-bullet-list{
+    list-style-type: none;
+}
+#linksbar>ul>li>a{
+    color: red;
+    background-color: pink;
+    text-decoration: none;
+}
+
+#linksbar > ul > li > a:hover {
+    color: pink;
+    background-color: red;
+}
